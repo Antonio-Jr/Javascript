@@ -1,0 +1,32 @@
+{
+  "name": "nodeapi_mongo",
+  "version": "1.0.0",
+  "description": "API em NodeJS com MongoDB",
+  "main": "database.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Antonio Junior Souza Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "nodemailer": "^6.3.0",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
